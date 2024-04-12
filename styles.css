@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Outfit";
   src: url("./Outfit-VariableFont_wght.ttf") format("truetype");
@@ -5,7 +11,7 @@
 
 @media only screen and (max-width: 768px) {
   .container {
-    width: 85% !important;
+    width: 65% !important;
   }
 }
 
@@ -24,10 +30,11 @@ body {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  width: 15%;
+  width: 17.5%;
   align-content: center;
   border-radius: 10px;
   text-align: center;
+  min-width: 250px;
 }
 
 .qrcode-container img {
